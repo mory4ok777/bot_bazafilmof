@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 import baza 
 import random
  
-bot = telebot.TeleBot("7407665532:AAF1Ipaa0YO9TtKZDoIIatcEfGDL9jdr53o")
+bot = telebot.TeleBot("kitajzev i turki v djopu")
 @bot.message_handler(commands=["start"])
 def start(msg):
     Keyboard = InlineKeyboardMarkup()
